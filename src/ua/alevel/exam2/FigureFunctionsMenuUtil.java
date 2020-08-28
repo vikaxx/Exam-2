@@ -1,6 +1,6 @@
 package ua.alevel.exam2;
 
-import ua.alevel.exam2.input.TriangleInput;
+import ua.alevel.exam2.input.FiguresAreaInput;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,10 +8,8 @@ import java.io.InputStreamReader;
 
 public class FigureFunctionsMenuUtil {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    private static Figure figure;
 
     public static void triangleFunctions() {
-        figure = new Triangle();
         System.out.println("\nChoose characteristic, please: ");
         System.out.println("1 - Area");
         System.out.println("2 - Perimeter");
@@ -27,7 +25,7 @@ public class FigureFunctionsMenuUtil {
 
             switch (input) {
                 case "1":
-                    System.out.println("area of this triangle is: " + TriangleInput.triangleAreaInputData());
+                    System.out.println("area of this triangle is: " + FiguresAreaInput.triangleAreaInput());
                     break;
                 case "2":
 

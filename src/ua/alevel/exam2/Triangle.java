@@ -5,6 +5,15 @@ public class Triangle implements Figure {
     private double rightSide;
     private double downSide;
 
+    public Triangle() {
+    }
+
+    public Triangle(double leftSide, double rightSide, double downSide) {
+        this.leftSide = leftSide;
+        this.rightSide = rightSide;
+        this.downSide = downSide;
+    }
+
     public double getLeftSide() {
         return leftSide;
     }

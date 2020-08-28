@@ -1,17 +1,17 @@
 package ua.alevel.exam2.input;
 
+import ua.alevel.exam2.Figure;
 import ua.alevel.exam2.Triangle;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class TriangleInput {
+public class FiguresAreaInput {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    private static Triangle triangle = new Triangle();
+    private static Figure figure;
 
-
-    public static double triangleAreaInputData() {
+    public static double triangleAreaInput() {
         String input = "";
         double leftSide = 0;
         double rightSide = 0;
@@ -32,10 +32,8 @@ public class TriangleInput {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        triangle.setLeftSide(leftSide);
-        triangle.setRightSide(rightSide);
-        triangle.setDownSide(downSide);
 
-        return triangle.area();
+        figure = new Triangle(leftSide,rightSide,downSide);
+        return figure.area();
     }
 }
