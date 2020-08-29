@@ -13,7 +13,11 @@ public class Circle extends Ellipse {
     }
 
     public void setRadius(double radius) {
-        this.radius = radius;
+        if (radius > 0) this.radius = radius;
+        else {
+            System.out.println("Error. Radius can not be less than 0.");
+            this.radius = FiguresInit.newCircle().getRadius();
+        }
     }
 
     @Override

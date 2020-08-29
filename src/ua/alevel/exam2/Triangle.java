@@ -5,21 +5,12 @@ public class Triangle implements Figure {
     private double rightSide;
     private double downSide;
 
-    public Triangle() {
-    }
-
-    public Triangle(double leftSide, double rightSide, double downSide) {
-        this.leftSide = leftSide;
-        this.rightSide = rightSide;
-        this.downSide = downSide;
-    }
-
     public double getLeftSide() {
         return leftSide;
     }
 
     public void setLeftSide(double leftSide) {
-        this.leftSide = leftSide;
+        if (leftSide > 0) this.leftSide = leftSide;
     }
 
     public double getRightSide() {
@@ -27,7 +18,7 @@ public class Triangle implements Figure {
     }
 
     public void setRightSide(double rightSide) {
-        this.rightSide = rightSide;
+        if (rightSide > 0) this.rightSide = rightSide;
     }
 
     public double getDownSide() {
@@ -36,6 +27,15 @@ public class Triangle implements Figure {
 
     public void setDownSide(double downSide) {
         this.downSide = downSide;
+
+        if (downSide > 0 && this.rightSide > 0 && this.leftSide > 0) this.downSide = downSide;
+        else {
+            System.out.println("Error. Side can not be less than 0.");
+            Triangle triangle = FiguresInit.newTriangle();
+            this.leftSide = triangle.getLeftSide();
+            this.rightSide = triangle.getRightSide();
+            this.downSide = triangle.getDownSide();
+        }
     }
 
     @Override

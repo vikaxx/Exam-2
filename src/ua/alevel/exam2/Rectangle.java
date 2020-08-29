@@ -1,6 +1,6 @@
 package ua.alevel.exam2;
 
-public class Rectangle extends Parallelogram {
+public class Rectangle implements Quadrangle {
     private double length;
     private double width;
 
@@ -9,7 +9,7 @@ public class Rectangle extends Parallelogram {
     }
 
     public void setLength(double length) {
-        this.length = length;
+        if (length > 0) this.length = length;
     }
 
     public double getWidth() {
@@ -17,20 +17,26 @@ public class Rectangle extends Parallelogram {
     }
 
     public void setWidth(double width) {
-        this.width = width;
+        if (width > 0 && this.length != 0) this.width = width;
+        else {
+            System.out.println("Error. Side can not be less than 0.");
+            Rectangle rectangle = FiguresInit.newRectangle();
+            this.length = rectangle.getLength();
+            this.width = rectangle.getWidth();
+        }
     }
 
     @Override
     public double area() {
-        return length*width;
+        return length * width;
     }
 
     @Override
     public double perimeter() {
-        return 2*(length+width);
+        return 2 * (length + width);
     }
 
-    public double getDiagonal(){
-        return Math.sqrt(Math.pow(length,2)+Math.pow(width,2));
+    public double diagonal() {
+        return Math.sqrt(Math.pow(length, 2) + Math.pow(width, 2));
     }
 }

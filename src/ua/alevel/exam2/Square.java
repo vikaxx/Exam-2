@@ -9,19 +9,25 @@ public class Square extends Rectangle {
 
     public void setSide(double side) {
         this.side = side;
+        if (side > 0) this.side = side;
+        else {
+            System.out.println("Error. Side can not be less than 0.");
+            this.side = FiguresInit.newSquare().getSide();
+        }
     }
 
     @Override
-    public double area(){
-        return side*side;
+    public double area() {
+        return side * side;
     }
 
     @Override
     public double perimeter() {
-        return side*4;
+        return side * 4;
     }
 
-    public double getDiagonal(){
-        return Math.sqrt(2*(Math.pow(side,2)));
+    @Override
+    public double diagonal() {
+        return Math.sqrt(2 * (Math.pow(side, 2)));
     }
 }

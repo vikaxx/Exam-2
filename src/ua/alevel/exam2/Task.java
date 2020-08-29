@@ -11,20 +11,17 @@ public class Task {
 
         try {
 
-//            while (true) {
+            while (true) {
                 System.out.println("\nChoose a figure, please: ");
-                System.out.println(" 1 - Triangle");
-                System.out.println(" 2 - Ellipse");
-                System.out.println(" 3 - Circle");
-                System.out.println(" 4 - Parallelogram");
-                System.out.println(" 5 - Rhombus");
-                System.out.println(" 6 - Trapezoid");
-                System.out.println(" 7 - Rectangle");
-                System.out.println(" 8 - Square");
-                System.out.println(" 9 - Pentagon");
-                System.out.println("10 - Hexagon");
-                System.out.println("11 - Octagon");
-                System.out.println(" q - quit\n");
+                System.out.println("1 - Triangle");
+                System.out.println("2 - Ellipse");
+                System.out.println("3 - Circle");
+                System.out.println("4 - Pentagon");
+                System.out.println("5 - Hexagon");
+                System.out.println("6 - Octagon");
+                System.out.println("7 - Rectangle");
+                System.out.println("8 - Square");
+                System.out.println("q - quit\n");
 
                 String input = reader.readLine();
 
@@ -39,28 +36,19 @@ public class Task {
                         FigureFunctionsMenuUtil.circleFunctions();
                         break;
                     case "4":
-                        FigureFunctionsMenuUtil.parallelogramFunctions();
+                        FigureFunctionsMenuUtil.pentagonFunctions();
                         break;
                     case "5":
-                        FigureFunctionsMenuUtil.rhombusFunctions();
+                        FigureFunctionsMenuUtil.hexagonFunctions();
                         break;
                     case "6":
-                        FigureFunctionsMenuUtil.trapezoidFunctions();
+                        FigureFunctionsMenuUtil.octagonFunctions();
                         break;
                     case "7":
                         FigureFunctionsMenuUtil.rectangleFunctions();
                         break;
                     case "8":
                         FigureFunctionsMenuUtil.squareFunctions();
-                        break;
-                    case "9":
-                        FigureFunctionsMenuUtil.pentagonFunctions();
-                        break;
-                    case "10":
-                        FigureFunctionsMenuUtil.hexagonFunctions();
-                        break;
-                    case "11":
-                        FigureFunctionsMenuUtil.octagonFunctions();
                         break;
                     case "q":
                         System.out.println("Exit!");
@@ -70,7 +58,7 @@ public class Task {
                         System.out.println("Input 'q' to quit.\n");
                 }
 
-//            }
+            }
 
         } catch (IOException e) {
             e.printStackTrace();

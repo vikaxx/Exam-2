@@ -9,6 +9,11 @@ public class Pentagon extends Polygon {
 
     public void setSide(double side) {
         this.side = side;
+        if (side > 0) this.side = side;
+        else {
+            System.out.println("Error. Side can not be less than 0.");
+            this.side = FiguresInit.newPentagon().getSide();
+        }
     }
 
     @Override
