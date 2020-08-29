@@ -13,9 +13,10 @@ public class FiguresInit {
             System.out.print("Input first side's length (0 to go back to menu): ");
             String input = reader.readLine();
 
-//            if (goBack(Double.parseDouble(input))){
-//                FigureFunctionsMenuUtil.triangleFunctions();
-//            }
+            if (Double.parseDouble(input) == 0) {
+                FigureFunctionsMenuUtil.triangleFunctions();
+                return null;
+            }
 
             triangle.setLeftSide(Double.parseDouble(input));
 
@@ -39,11 +40,14 @@ public class FiguresInit {
         Ellipse ellipse = new Ellipse();
 
         try {
-//            if (goBack()){
-//                FigureFunctionsMenuUtil.ellipseFunctions();
-//            }
-            System.out.print("Input first focus: ");
+            System.out.print("Input first focus (0 to go back to menu): ");
             String input = reader.readLine();
+
+            if (Double.parseDouble(input) == 0) {
+                FigureFunctionsMenuUtil.ellipseFunctions();
+                return null;
+            }
+
             ellipse.setBigFocus(Double.parseDouble(input));
 
             System.out.print("Input second focus: ");
@@ -61,11 +65,15 @@ public class FiguresInit {
     public static Circle newCircle() {
         Circle circle = new Circle();
         try {
-//            if (goBack()){
-//                FigureFunctionsMenuUtil.circleFunctions();
-//            }
-            System.out.print("Input radius: ");
+
+            System.out.print("Input radius (0 to go back to menu): ");
             String input = reader.readLine();
+
+            if (Double.parseDouble(input) == 0) {
+                FigureFunctionsMenuUtil.circleFunctions();
+                return null;
+            }
+
             circle.setRadius(Double.parseDouble(input));
 
         } catch (Exception e) {
@@ -79,11 +87,15 @@ public class FiguresInit {
     public static Rectangle newRectangle() {
         Rectangle rectangle = new Rectangle();
         try {
-//            if (goBack()){
-//                FigureFunctionsMenuUtil.rectangleFunctions();
-//            }
-            System.out.print("Input length: ");
+
+            System.out.print("Input length (0 to go back to menu): ");
             String input = reader.readLine();
+
+            if (Double.parseDouble(input) == 0) {
+                FigureFunctionsMenuUtil.rectangleFunctions();
+                return null;
+            }
+
             rectangle.setLength(Double.parseDouble(input));
 
             System.out.print("Input width: ");
@@ -101,11 +113,15 @@ public class FiguresInit {
     public static Square newSquare() {
         Square square = new Square();
         try {
-//            if (goBack()){
-//                FigureFunctionsMenuUtil.squareFunctions();
-//            }
-            System.out.print("Input side's length: ");
+
+            System.out.print("Input side's length (0 to go back to menu): ");
             String input = reader.readLine();
+
+            if (Double.parseDouble(input) == 0) {
+                FigureFunctionsMenuUtil.squareFunctions();
+                return null;
+            }
+
             square.setSide(Double.parseDouble(input));
 
         } catch (Exception e) {
@@ -119,11 +135,15 @@ public class FiguresInit {
     public static Pentagon newPentagon() {
         Pentagon pentagon = new Pentagon();
         try {
-//            if (goBack()){
-//                FigureFunctionsMenuUtil.pentagonFunctions();
-//            }
-            System.out.print("Input side's length: ");
+
+            System.out.print("Input side's length (0 to go back to menu): ");
             String input = reader.readLine();
+
+            if (Double.parseDouble(input) == 0) {
+                FigureFunctionsMenuUtil.pentagonFunctions();
+                return null;
+            }
+
             pentagon.setSide(Double.parseDouble(input));
 
         } catch (Exception e) {
@@ -137,11 +157,15 @@ public class FiguresInit {
     public static Hexagon newHexagon() {
         Hexagon hexagon = new Hexagon();
         try {
-//            if (goBack()){
-//                FigureFunctionsMenuUtil.hexagonFunctions();
-//            }
-            System.out.print("Input side's length: ");
+
+            System.out.print("Input side's length (0 to go back to menu): ");
             String input = reader.readLine();
+
+            if (Double.parseDouble(input) == 0) {
+                FigureFunctionsMenuUtil.hexagonFunctions();
+                return null;
+            }
+
             hexagon.setSide(Double.parseDouble(input));
 
         } catch (Exception e) {
@@ -155,11 +179,15 @@ public class FiguresInit {
     public static Octagon newOctagon() {
         Octagon octagon = new Octagon();
         try {
-//            if (goBack()){
-//                FigureFunctionsMenuUtil.octagonFunctions();
-//            }
-            System.out.print("Input side's length: ");
+
+            System.out.print("Input side's length (0 to go back to menu): ");
             String input = reader.readLine();
+
+            if (Double.parseDouble(input) == 0) {
+                FigureFunctionsMenuUtil.octagonFunctions();
+                return null;
+            }
+
             octagon.setSide(Double.parseDouble(input));
 
         } catch (Exception e) {
@@ -169,15 +197,5 @@ public class FiguresInit {
 
         return octagon;
     }
-
-//    private static boolean goBack(double isBack) {
-//        boolean back = false;
-//
-//        if (isBack == 0) {
-//            back = true;
-//        }
-//
-//        return back;
-//    }
 
 }

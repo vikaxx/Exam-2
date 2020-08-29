@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dda165f-702e-4bff-be95-40eca406c530" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/FiguresInit.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Ellipse.class" afterPath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Ellipse.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/FigureFunctionsMenuUtil.class" afterPath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/FigureFunctionsMenuUtil.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Parallelogram.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Rectangle.class" afterPath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Rectangle.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Rhombus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Task.class" afterPath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Task.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/Trapezoid.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/exam2/ua/alevel/exam2/input/FiguresAreaInput.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Circle.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Circle.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Ellipse.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Ellipse.java" />
       <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/FigureFunctionsMenuUtil.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/FigureFunctionsMenuUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Hexagon.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Hexagon.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Octagon.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Octagon.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Parallelogram.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Pentagon.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Pentagon.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Rectangle.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Rectangle.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Rhombus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Square.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Square.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Task.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Task.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Trapezoid.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/Triangle.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/Triangle.java" />
-      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/input/FiguresAreaInput.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/ua/alevel/exam2/FiguresInit.java" afterPath="$PROJECT_DIR$/src/ua/alevel/exam2/FiguresInit.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FigureFunctionsMenuUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FigureFunctionsMenuUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/alevel/exam2/FigureFunctionsMenuUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="386" column="39" lean-forward="true" selection-start-line="386" selection-start-column="39" selection-end-line="386" selection-end-column="39" />
+            <state relative-caret-position="4465">
+              <caret line="253" column="25" lean-forward="true" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +45,7 @@
       <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/alevel/exam2/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
+            <state relative-caret-position="969">
               <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FiguresInit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FiguresInit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/alevel/exam2/FiguresInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="-1588">
+              <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,10 +154,12 @@
     <findStrings>
       <find>continueInput</find>
       <find>IOException</find>
+      <find>goBack(Double.parseDouble(input))</find>
     </findStrings>
     <replaceStrings>
       <replace>goBack</replace>
       <replace>Exception</replace>
+      <replace>Double.parseDouble(input) == 0</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -424,7 +404,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35108152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -679,19 +659,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/alevel/exam2/FigureFunctionsMenuUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="386" column="39" lean-forward="true" selection-start-line="386" selection-start-column="39" selection-end-line="386" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/alevel/exam2/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
+        <state relative-caret-position="969">
           <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -701,8 +671,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/alevel/exam2/FiguresInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="-1588">
+          <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/alevel/exam2/FigureFunctionsMenuUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4465">
+          <caret line="253" column="25" lean-forward="true" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

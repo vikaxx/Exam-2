@@ -24,20 +24,32 @@ public class FigureFunctionsMenuUtil {
 
             switch (input) {
                 case "1":
-                    triangle = FiguresInit.newTriangle();
-                    System.out.println("Triangle area is: " + triangle.area());
+                    try {
+                        triangle = FiguresInit.newTriangle();
+                        System.out.println("Triangle area is: " + triangle.area());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "2":
-                    triangle = FiguresInit.newTriangle();
-                    System.out.println("Triangle perimeter is: " + triangle.perimeter());
+                    try {
+                        triangle = FiguresInit.newTriangle();
+                        System.out.println("Triangle perimeter is: " + triangle.perimeter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "3":
-                    triangle = FiguresInit.newTriangle();
-                    System.out.println("Triangle middle line is: " + triangle.middleLine());
+                    try {
+                        triangle = FiguresInit.newTriangle();
+                        System.out.println("Triangle middle line is: " + triangle.middleLine());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "4":
-                    triangle = FiguresInit.newTriangle();
-                    System.out.println("Triangle height is: " + triangle.height());
+                    try {
+                        triangle = FiguresInit.newTriangle();
+                        System.out.println("Triangle height is: " + triangle.height());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "0":
                     Task.run();
@@ -74,12 +86,18 @@ public class FigureFunctionsMenuUtil {
 
             switch (input) {
                 case "1":
-                    ellipse = FiguresInit.newEllipse();
-                    System.out.println("Ellipse area is: " + ellipse.area());
+                    try {
+                        ellipse = FiguresInit.newEllipse();
+                        System.out.println("Ellipse area is: " + ellipse.area());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "2":
-                    ellipse = FiguresInit.newEllipse();
-                    System.out.println("Ellipse perimeter is: " + ellipse.perimeter());
+                    try {
+                        ellipse = FiguresInit.newEllipse();
+                        System.out.println("Ellipse perimeter is: " + ellipse.perimeter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "0":
                     Task.run();
@@ -117,16 +135,25 @@ public class FigureFunctionsMenuUtil {
 
             switch (input) {
                 case "1":
-                    circle = FiguresInit.newCircle();
-                    System.out.println("Circle area is: " + circle.area());
+                    try {
+                        circle = FiguresInit.newCircle();
+                        System.out.println("Circle area is: " + circle.area());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "2":
-                    circle = FiguresInit.newCircle();
-                    System.out.println("Circle perimeter is: " + circle.perimeter());
+                    try {
+                        circle = FiguresInit.newCircle();
+                        System.out.println("Circle perimeter is: " + circle.perimeter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "3":
-                    circle = FiguresInit.newCircle();
-                    System.out.println("Circle diameter is: " + circle.diameter());
+                    try {
+                        circle = FiguresInit.newCircle();
+                        System.out.println("Circle diameter is: " + circle.diameter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "0":
                     Task.run();
@@ -163,16 +190,25 @@ public class FigureFunctionsMenuUtil {
             Rectangle rectangle;
             switch (input) {
                 case "1":
-                    rectangle = FiguresInit.newRectangle();
-                    System.out.println("Rectangle area is: " + rectangle.area());
+                    try {
+                        rectangle = FiguresInit.newRectangle();
+                        System.out.println("Rectangle area is: " + rectangle.area());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "2":
-                    rectangle = FiguresInit.newRectangle();
-                    System.out.println("Rectangle perimeter is: " + rectangle.perimeter());
+                    try {
+                        rectangle = FiguresInit.newRectangle();
+                        System.out.println("Rectangle perimeter is: " + rectangle.perimeter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "3":
-                    rectangle = FiguresInit.newRectangle();
-                    System.out.println("Rectangle diagonal is: " + rectangle.diagonal());
+                    try {
+                        rectangle = FiguresInit.newRectangle();
+                        System.out.println("Rectangle diagonal is: " + rectangle.diagonal());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "0":
                     Task.run();
@@ -209,16 +245,25 @@ public class FigureFunctionsMenuUtil {
             Square square;
             switch (input) {
                 case "1":
-                    square = FiguresInit.newSquare();
-                    System.out.println("Square area is: " + square.area());
+                    try {
+                        square = FiguresInit.newSquare();
+                        System.out.println("Square area is: " + square.area());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "2":
-                    square = FiguresInit.newSquare();
-                    System.out.println("Square perimeter is: " + square.perimeter());
+                    try {
+                        square = FiguresInit.newSquare();
+                        System.out.println("Square perimeter is: " + square.perimeter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "3":
-                    square = FiguresInit.newSquare();
-                    System.out.println("Square diagonal is: " + square.diagonal());
+                    try {
+                        square = FiguresInit.newSquare();
+                        System.out.println("Square diagonal is: " + square.diagonal());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "0":
                     Task.run();
@@ -257,20 +302,32 @@ public class FigureFunctionsMenuUtil {
 
             switch (input) {
                 case "1":
-                    pentagon = FiguresInit.newPentagon();
-                    System.out.println("Pentagon area is: " + pentagon.area());
+                    try {
+                        pentagon = FiguresInit.newPentagon();
+                        System.out.println("Pentagon area is: " + pentagon.area());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "2":
-                    pentagon = FiguresInit.newPentagon();
-                    System.out.println("Pentagon perimeter is: " + pentagon.perimeter());
+                    try {
+                        pentagon = FiguresInit.newPentagon();
+                        System.out.println("Pentagon perimeter is: " + pentagon.perimeter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "3":
-                    pentagon = FiguresInit.newPentagon();
-                    System.out.println("Pentagon inside corner is: " + pentagon.insideCorner());
+                    try {
+                        pentagon = FiguresInit.newPentagon();
+                        System.out.println("Pentagon inside corner is: " + pentagon.insideCorner());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "4":
-                    pentagon = FiguresInit.newPentagon();
-                    System.out.println("Pentagon center corner is: " + pentagon.centerCorner());
+                    try {
+                        pentagon = FiguresInit.newPentagon();
+                        System.out.println("Pentagon center corner is: " + pentagon.centerCorner());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "0":
                     Task.run();
@@ -309,20 +366,32 @@ public class FigureFunctionsMenuUtil {
 
             switch (input) {
                 case "1":
-                    hexagon = FiguresInit.newHexagon();
-                    System.out.println("Hexagon area is: " + hexagon.area());
+                    try {
+                        hexagon = FiguresInit.newHexagon();
+                        System.out.println("Hexagon area is: " + hexagon.area());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "2":
-                    hexagon = FiguresInit.newHexagon();
-                    System.out.println("Hexagon perimeter is: " + hexagon.perimeter());
+                    try {
+                        hexagon = FiguresInit.newHexagon();
+                        System.out.println("Hexagon perimeter is: " + hexagon.perimeter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "3":
-                    hexagon = FiguresInit.newHexagon();
-                    System.out.println("Hexagon inside corner is: " + hexagon.insideCorner());
+                    try {
+                        hexagon = FiguresInit.newHexagon();
+                        System.out.println("Hexagon inside corner is: " + hexagon.insideCorner());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "4":
-                    hexagon = FiguresInit.newHexagon();
-                    System.out.println("Hexagon center corner is: " + hexagon.centerCorner());
+                    try {
+                        hexagon = FiguresInit.newHexagon();
+                        System.out.println("Hexagon center corner is: " + hexagon.centerCorner());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "0":
                     Task.run();
@@ -360,17 +429,33 @@ public class FigureFunctionsMenuUtil {
             Octagon octagon;
 
             switch (input) {
-                case "1":octagon = FiguresInit.newOctagon();
-                    System.out.println("Octagon area is: " + octagon.area());
+                case "1":
+                    try {
+                        octagon = FiguresInit.newOctagon();
+                        System.out.println("Octagon area is: " + octagon.area());
+                    } catch (NullPointerException e) {
+                    }
                     break;
-                case "2":octagon = FiguresInit.newOctagon();
-                    System.out.println("Octagon perimeter is: " + octagon.perimeter());
+                case "2":
+                    try {
+                        octagon = FiguresInit.newOctagon();
+                        System.out.println("Octagon perimeter is: " + octagon.perimeter());
+                    } catch (NullPointerException e) {
+                    }
                     break;
-                case "3":octagon = FiguresInit.newOctagon();
-                    System.out.println("Octagon inside corner is: " + octagon.insideCorner());
+                case "3":
+                    try {
+                        octagon = FiguresInit.newOctagon();
+                        System.out.println("Octagon inside corner is: " + octagon.insideCorner());
+                    } catch (NullPointerException e) {
+                    }
                     break;
-                case "4":octagon = FiguresInit.newOctagon();
-                    System.out.println("Octagon center corner is: " + octagon.centerCorner());
+                case "4":
+                    try {
+                        octagon = FiguresInit.newOctagon();
+                        System.out.println("Octagon center corner is: " + octagon.centerCorner());
+                    } catch (NullPointerException e) {
+                    }
                     break;
                 case "0":
                     Task.run();
